@@ -1,0 +1,44 @@
+postgres_dsn: "host=127.0.0.1 port=5432 user=user123 password=123 dbname=whiskey sslmode=disable"
+jwtkey: ""
+path_url: ""
+date_start: "2021-11-01T00:01:00"
+
+http:
+  server_port: ":8080"
+
+telegram:
+  telegram_token: "BOT:TOKEN"
+  chat_id: "1"
+
+sms:
+  sms_url: "https://api.iqsms.ru/messages/v2/send.json"
+  sms_pass: ""
+  sms_login: ""
+  sms_sender: ""
+
+server_email:
+  host: ""
+  port: 2525
+  login: ""
+  from: ""
+  pass: ""
+  email_unsubscribe: ""
+  email_name_sender: ""
+  email_sender: ""
+
+file_storage:
+  host:
+  access_key:
+  secret_key:
+  ssl:
+  bucket:
+  bucket_bad:
+
+check:
+  url: "https://proverkacheka.com/api/v1/check/get"
+  token: ""
+
+yoomoney:
+  auth: ""
+  req_start: "https://yoomoney.ru/api/request-payment"
+  req_finish: "https://yoomoney.ru/api/process-payment"
